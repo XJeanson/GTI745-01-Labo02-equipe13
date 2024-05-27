@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: 1be7c3e87804947feb02531db73c364a
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 7be51db40738ce1547a6ca338e381322
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -21,17 +24,24 @@ MonoBehaviour:
   m_IgnoreUnsupportedFilesInBuild: 0
   m_UniqueBundleIds: 0
   m_NonRecursiveBuilding: 0
+  m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 500
   m_ContiguousBundles: 0
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 581e4e257ab6c417bb1290bccf5cf9b1, type: 2}
@@ -39,6 +49,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ad436c664da484b3bab0ab9477b7a4d5, type: 2}
   - {fileID: 11400000, guid: 8de3058e6acc84191a1fad5276e1b130, type: 2}
   - {fileID: 11400000, guid: 49be9b72d530e461d8d72f01e25c745f, type: 2}
+  - {fileID: 11400000, guid: bb1a831718c392642bf52ef31a0f6510, type: 2}
+  - {fileID: 11400000, guid: 9f576f5f7ab8636448d0b7ba75602325, type: 2}
+  - {fileID: 11400000, guid: 40cd6f08c89205149813612b766b2271, type: 2}
+  - {fileID: 11400000, guid: 0135c0f28dc3b2341ba71eb52111a387, type: 2}
+  - {fileID: 11400000, guid: d5ab79a3207b5a44095d51f2ad6a4c5d, type: 2}
+  - {fileID: 11400000, guid: 1a494ca8574e7754380d1d10b5e0e048, type: 2}
+  - {fileID: 11400000, guid: e3cf7faa282b5e84d944986af46e7bff, type: 2}
+  - {fileID: 11400000, guid: f2bb24d881b9db64e9d04b40cac1f6c1, type: 2}
+  - {fileID: 11400000, guid: 1b97382fa36572744864564468422ef9, type: 2}
+  - {fileID: 11400000, guid: b6b308d423e2096439d90895c4b785de, type: 2}
+  - {fileID: 11400000, guid: f3b51ed8c6e378c47b51ce9cfaf878e0, type: 2}
+  - {fileID: 11400000, guid: 8caafcaf13d19ea46b8f6c2dba4a93b5, type: 2}
+  - {fileID: 11400000, guid: 6ff66bc55047add42bb6438b20c20a27, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -114,3 +137,4 @@ MonoBehaviour:
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000
